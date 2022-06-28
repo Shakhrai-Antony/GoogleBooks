@@ -1,12 +1,8 @@
 import {getBooksAPI} from "../DAL/API/API";
-import {AppStateType, InferActionsTypes} from "./State";
-import {Dispatch} from "redux";
-import {ThunkAction} from "redux-thunk";
-
 
 interface SearchReducerStateType {
     books: Array<[]>
-    totalCount: null | number
+    totalCount:  number
     isFetching: boolean
     term: string
     status: string
@@ -15,7 +11,7 @@ interface SearchReducerStateType {
 }
 let initialState: SearchReducerStateType = {
     books: [],
-    totalCount: null,
+    totalCount: 1,
     isFetching: false,
     term: '',
     status: '',
@@ -25,7 +21,7 @@ let initialState: SearchReducerStateType = {
 
 type initialStateType = typeof initialState
 
-const SearchBooksReducer = (state = initialState, action: searchBooksReducerActionType): initialStateType => {
+const SearchBooksReducer = (state = initialState, action: any): initialStateType => {
     switch (action.type) {
         case 'SET_ALL_BOOKS':
             return {
@@ -52,7 +48,6 @@ const SearchBooksReducer = (state = initialState, action: searchBooksReducerActi
     }
 }
 
-export type searchBooksReducerActionType = InferActionsTypes<typeof bookReducerActions>
 
 export const bookReducerActions = {
     setBooks: (books: Array<[]>) => {
@@ -69,11 +64,8 @@ export const bookReducerActions = {
     }
 }
 
-export type SearchBooksReducerThunkType = ThunkAction<void, AppStateType, unknown, searchBooksReducerActionType>
-export type SearchBooksReducerDispatchType = Dispatch<searchBooksReducerActionType>
-
-export const setBooksThunkCreator = (term: string, status: string, sorted: string, index: number): SearchBooksReducerThunkType => {
-    return (dispatch: SearchBooksReducerDispatchType) => {
+export const setBooksThunkCreator = (term: string, status: string, sorted: string, index: number): any => {
+    return (dispatch: any) => {
         try {
             dispatch(bookReducerActions.setFetchingStatus(true))
             getBooksAPI.getNewBooks(term, status, sorted, index).then(data => {
@@ -87,8 +79,8 @@ export const setBooksThunkCreator = (term: string, status: string, sorted: strin
         }
     }
 }
-export const setMoreBooksOnPageThunkCreator = (term: string, status: string, sorted: string, index: number): SearchBooksReducerThunkType => {
-    return (dispatch: SearchBooksReducerDispatchType) => {
+export const setMoreBooksOnPageThunkCreator = (term: string, status: string, sorted: string, index: number): any => {
+    return (dispatch: any) => {
         try {
             dispatch(bookReducerActions.setFetchingStatus(true))
             dispatch(bookReducerActions.setMoreBooks(term, status, sorted, index))

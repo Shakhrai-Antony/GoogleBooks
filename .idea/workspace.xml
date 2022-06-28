@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4adb244c-822e-4267-b525-d817f0a0024b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/BooksComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/BooksComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/BooksList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/BooksList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/books.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/books.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/booksList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/booksList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Paginator/Paginator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Paginator/Paginator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/Preloader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/preloader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/preloader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SearchComponent/SearchComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchComponent/SearchComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SearchComponent/searchComponent.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchComponent/searchComponent.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAL/API/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/API/API.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/SearchBooksReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/SearchBooksReducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/State.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2B7kv1a01AaSdJ7m4zVkhYFe9AC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="D:\googlebooksapp\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4adb244c-822e-4267-b525-d817f0a0024b" name="Default Changelist" comment="" />
+      <created>1656264737735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656264737735</updated>
+      <workItem from="1656264758167" duration="8609000" />
+      <workItem from="1656282619702" duration="4389000" />
+      <workItem from="1656412864713" duration="3817000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1656283234592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1656283234592" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1656264792035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1656264792035" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+.app_section{
+  background-image: url("./Images/book_stack.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  .app_section_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 5%;
+  }
+}

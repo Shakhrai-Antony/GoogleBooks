@@ -1,0 +1,28 @@
+.books_section {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+}
+.loadmore_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  padding-bottom: 100px;
+  button {
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+}
