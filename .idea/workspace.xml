@@ -11,23 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4adb244c-822e-4267-b525-d817f0a0024b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/BooksComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/BooksComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/BooksList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/BooksList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/books.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/books.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BooksSection/booksList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BooksSection/booksList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Paginator/Paginator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Paginator/Paginator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/Preloader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/preloader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/preloader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SearchComponent/SearchComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchComponent/SearchComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SearchComponent/searchComponent.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchComponent/searchComponent.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAL/API/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/API/API.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store/SearchBooksReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/SearchBooksReducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/State.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +59,18 @@
       <updated>1656264737735</updated>
       <workItem from="1656264758167" duration="8609000" />
       <workItem from="1656282619702" duration="4389000" />
-      <workItem from="1656412864713" duration="3817000" />
+      <workItem from="1656412864713" duration="4695000" />
+      <workItem from="1657125150303" duration="373000" />
+      <workItem from="1657219375072" duration="106000" />
+      <workItem from="1657372282451" duration="426000" />
+      <workItem from="1657398301143" duration="199000" />
+      <workItem from="1657557872925" duration="174000" />
+      <workItem from="1658486921079" duration="36000" />
+      <workItem from="1658606675050" duration="1343000" />
+      <workItem from="1658608827297" duration="118000" />
+      <workItem from="1658665020464" duration="711000" />
+      <workItem from="1658676403696" duration="8717000" />
+      <workItem from="1658745953170" duration="1858000" />
     </task>
     <servers />
   </component>

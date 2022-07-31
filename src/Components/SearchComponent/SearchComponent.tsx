@@ -9,7 +9,7 @@ export const SearchComponent = () => {
     const searchSubmit = (term: string, status: string, sorted: string, index: number) => {
         dispatch(setBooksThunkCreator(term, status, sorted, index))
     }
-    const {values, handleChange, handleSubmit} = useFormik({
+    const {values, handleChange, handleSubmit, resetForm} = useFormik({
         initialValues: {
             term: '',
             status: 'all',
@@ -18,6 +18,7 @@ export const SearchComponent = () => {
         },
         onSubmit: (values) => {
             searchSubmit(values.term, values.status, values.sorted, values.index)
+            resetForm()
         }
     })
     return (

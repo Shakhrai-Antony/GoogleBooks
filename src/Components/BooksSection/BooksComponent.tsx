@@ -39,7 +39,8 @@ export const BooksSection = () => {
         <div>
             {fetchingStatus ? <Preloader/> : <div className={s.books_section}>
                 {booksList}
-            </div>}
+            </div>
+            }
             <Paginator/>
         </div>
 
